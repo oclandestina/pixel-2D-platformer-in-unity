@@ -1,0 +1,15 @@
+ // Start is called before the first frame update
+    void Start()
+    {
+        int a = 10;
+        float squareCount = Mathf.Pow( f: a, p: 2);
+        int b = 11;
+        float c = 12.5f;
+        float rectangleCount = b * c;
+        int d = 13;
+        float circleCount = Mathf.PI * d * d;
+
+        Debug.Log(squareCount);
+        Debug.Log(rectangleCount);
+        Debug.Log(circleCount); 
+    } 
