@@ -1,0 +1,28 @@
+void Start()
+    {
+        int applesCount = 10;
+        int orangesCount = 5;
+        int tomatoesCount = 15;
+
+
+
+
+
+        Debug.Log(applesCount);
+        Debug.Log(orangesCount);
+        Debug.Log(tomatoesCount);
+
+
+        if (applesCount <= orangesCount && applesCount >= tomatoesCount)
+            Debug.Log("Апельсины, яблоки, помидоры");
+        else if (orangesCount <= applesCount && orangesCount >= tomatoesCount)
+            Debug.Log("Яблоки, апельсины, помидоры");
+        else if (tomatoesCount <= applesCount && tomatoesCount >= orangesCount)
+            Debug.Log("Яблоки, помидоры, апельсины");
+        else if (applesCount <= tomatoesCount && applesCount >= orangesCount)
+            Debug.Log("Помидоры, яблоки, апельсины");
+        else if (orangesCount <= tomatoesCount && orangesCount >= applesCount)
+            Debug.Log("Помидоры, апельсины, яблоки");
+        else if (tomatoesCount <= orangesCount && tomatoesCount >= applesCount)
+            Debug.Log("Апельсины, помидоры, яблоки");
+    }
