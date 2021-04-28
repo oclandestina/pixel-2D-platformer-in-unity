@@ -1,0 +1,12 @@
+{
+        double Thickness = 1;
+        long moonDistance = 300000000000;
+        int n = 0;
+
+        while (Thickness < moonDistance)
+        {
+            Thickness *= 2;
+            n++;
+        }
+        Debug.Log("Нужно" + n + "складываний, чтобы добраться до Луны");
+    }
