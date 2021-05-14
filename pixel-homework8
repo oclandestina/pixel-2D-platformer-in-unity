@@ -1,0 +1,11 @@
+    void Start()
+    {
+        float r = 2;
+        float result = GetSquareOfCircle(r);
+        Debug.Log(result);
+    }
+    float GetSquareOfCircle(float r)
+    {
+        float circleSquare = Mathf.PI * r * r;
+        return (circleSquare);
+    }
