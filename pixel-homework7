@@ -1,0 +1,11 @@
+{
+    void neverMind()
+    {
+        Debug.Log("Hello there");
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        neverMind();
+    }
+}
