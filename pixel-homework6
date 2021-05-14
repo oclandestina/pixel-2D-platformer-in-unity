@@ -1,0 +1,12 @@
+void Start()
+    {
+         Debug.Log(outcome());
+        bool outcome(int a = 29, int b = 22)
+        {
+            if (a > b)
+            {
+                return true;
+            }
+            else return false;
+        }
+    }
