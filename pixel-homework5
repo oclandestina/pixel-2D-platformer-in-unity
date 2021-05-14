@@ -1,0 +1,10 @@
+    public SpriteRenderer[] renderers; 
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        for (int i = 0; i < renderers.Length; i++)
+        {
+            renderers[i].color = Color.magenta;
+        }
+    }
